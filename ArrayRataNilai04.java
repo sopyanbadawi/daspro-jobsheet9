@@ -30,14 +30,14 @@ public class ArrayRataNilai04 {
             }
         }
         if (jmlLulus>0) {
-            rata2Lulus = totLulus / jmlLulus;
+            rata2Lulus = (double)  totLulus / jmlLulus;
             System.out.println("Rata-rata nilai lulus = "+rata2Lulus);
         }
         if (jmlTdkLulus>0){
-            rata2TdkLulus = totTdkLulus / jmlTdkLulus;
+            rata2TdkLulus = (double) totTdkLulus / jmlTdkLulus;
             System.out.println("Rata-rata nilai tidak lulus = "+rata2TdkLulus);  
         }
-        rata2 = (totLulus+totTdkLulus) / jmlMhs;
+        rata2 = (totLulus+totTdkLulus)/ jmlMhs;
         System.out.println("Rata-rata nilai seluruh = "+rata2); 
         System.out.println("Jumlah Mahasiswa yang Lulus : "+jmlLulus);
         System.out.println("Jumlah Mahasiswa yang tidak Lulus : "+jmlTdkLulus);
